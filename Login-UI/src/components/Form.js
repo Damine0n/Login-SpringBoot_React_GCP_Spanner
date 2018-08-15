@@ -7,7 +7,7 @@ class Form extends React.Component{
 
   render(){
     return(
-      <form onSubmit={this.props.getLoginInfo}>
+      <form>
         <input type="text" name="username" placeholder="Username" onChange={this.props.updateUsername} value={this.props.username}/>
         <input type="password" name="password" placeholder="Password" onChange={this.props.updatePassword} value={this.props.password}/>
         <br/><button name="submit" value="Sign-in" onClick={this.props.signIn}>Sign-in</button>

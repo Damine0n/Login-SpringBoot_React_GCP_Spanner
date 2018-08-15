@@ -1,9 +1,9 @@
 import React from "react";
 
-const Weather = props => (
+const Message = props => (
   <div>
     {props.error && <p>{props.error}</p>}
   </div>
 );
 
-export default Weather;
+export default Message;
